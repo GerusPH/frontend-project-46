@@ -15,8 +15,7 @@
   "dependencies": {
     "commander": "^10.0.0",
     "fs": "^0.0.1-security",
-    "lint": "^0.8.19"
-    
+    "lint": "^1.1.2"
   },
   "devDependencies": {
     "eslint": "^8.36.0",
