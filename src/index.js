@@ -30,4 +30,5 @@ const genDiff = (firstPath, secondPath) => {
 
   return `{\n ${diffs.join('\n ')}\n}`;
 };
+
 export default genDiff;
