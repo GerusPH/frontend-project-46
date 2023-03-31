@@ -18,6 +18,7 @@ jobs:
       matrix:
         node-version: [14.x]
     steps:
+    
        # Check-out repository under GitHub workspace
         # https://github.com/actions/checkout
       - uses: actions/checkout@v2
@@ -35,8 +36,8 @@ jobs:
       - run: make test
       - name: Test & publish code coverage
         # Publish code coverage on Code Climate
-        # https://github.com/AnastasiaMir/codeclimate-action
-        uses: AnastasiaMir/codeclimate-action@v3.0.0
+        # https://github.com/GerusPH/codeclimate-action
+        uses: GerusPH/codeclimate-action@v3.0.0
         # Add Code Climate secret key
         env:
           CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
