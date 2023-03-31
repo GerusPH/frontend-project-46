@@ -4,6 +4,8 @@
 
 [![GitHub Actions Demo](https://github.com/GerusPH/frontend-project-46/actions/workflows/github-actions-demo.yml/badge.svg)](https://github.com/GerusPH/frontend-project-46/actions/workflows/github-actions-demo.yml)
 
+<a href="https://codeclimate.com/github/GerusPH/frontend-project-46/maintainability"><img src="https://api.codeclimate.com/v1/badges/b1f72ad3b84063944f35/maintainability" /></a>
+
 Comparising plain json files
 <a href="https://asciinema.org/a/Ly9c912nh3kUZdOLViwH2bpcD" target="_blank"><img src="https://asciinema.org/a/Ly9c912nh3kUZdOLViwH2bpcD.svg" /></a>
 
