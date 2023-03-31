@@ -1,13 +1,10 @@
 import _ from 'lodash';
-import { readFileSync } from 'node:fs';
-import path from 'path';
-import { cwd } from 'node:process';
+import parser from './parsers.js';
+
 
 const genDiff = (firstPath, secondPath) => {
-  const filepath1 = path.resolve(`${cwd()}`, `${firstPath}`);
-  const filepath2 = path.resolve(`${cwd()}`, `${secondPath}`);
-  const file1 = JSON.parse(readFileSync(filepath1, 'utf-8'));
-  const file2 = JSON.parse(readFileSync(filepath2, 'utf-8'));
+  const file1 = parser(firstPath);
+  const file2 = parser(secondPath);
   const file1keys = Object.keys(file1);
   const file2keys = Object.keys(file2);
   const allKeys = _.sortBy(_.union(file2keys, file1keys));
@@ -27,7 +24,6 @@ const genDiff = (firstPath, secondPath) => {
     return acc;
   };
   const diffs = allKeys.reduce(difference, []);
-
   return `{\n ${diffs.join('\n ')}\n}`;
 };
 
