@@ -2,24 +2,16 @@ import { test, expect } from '@jest/globals';
 import path, { dirname } from 'path';
 import { fileURLToPath } from 'url';
 import genDiff from '../src/index.js';
+import nestedDiff from '../__fixtures__/nestedDiff.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 const getFixturePath = (fileName) => path.join(__dirname, '..', '__fixtures__', fileName);
 
-const expectedResult = `{
- - follow: false
-   host: hexlet.io
- - proxy: 123.234.53.22
- - timeout: 50
- + timeout: 20
- + verbose: true
-}`;
-
-test('test1 - Plainjson', () => {
-  expect(genDiff(getFixturePath('file1.json'), getFixturePath('file2.json'))).toEqual(expectedResult);
+test('test1 - nestedJson', () => {
+  expect(genDiff(getFixturePath('nested1.json'), getFixturePath('nested2.json'))).toEqual(nestedDiff);
 });
-test('test2 - yml', () => {
-  expect(genDiff(getFixturePath('file1.yml'), getFixturePath('file2.yml'))).toEqual(expectedResult);
+test('test2 - nestedYml', () => {
+  expect(genDiff(getFixturePath('nested1.yml'), getFixturePath('nested2.yml'))).toEqual(nestedDiff);
 });
