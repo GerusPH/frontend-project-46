@@ -11,3 +11,6 @@
 Comparising plain json files
 <a href="https://asciinema.org/a/Ly9c912nh3kUZdOLViwH2bpcD" target="_blank"><img src="https://asciinema.org/a/Ly9c912nh3kUZdOLViwH2bpcD.svg" /></a>
 
+Comparising plain yml files
+<a href="https://asciinema.org/a/1pzwFbSAi3o1o05UMXsf4vqcr" target="_blank"><img src="https://asciinema.org/a/1pzwFbSAi3o1o05UMXsf4vqcr.svg" /></a>
+
