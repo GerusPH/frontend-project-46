@@ -14,3 +14,6 @@ Comparising plain json files
 Comparising plain yml files
 <a href="https://asciinema.org/a/1pzwFbSAi3o1o05UMXsf4vqcr" target="_blank"><img src="https://asciinema.org/a/1pzwFbSAi3o1o05UMXsf4vqcr.svg" /></a>
 
+Comparising nested json and yml files
+<a href="https://https://asciinema.org/a/JHpwJ7SplnSziunMgf0yYWiv9" target="_blank"><img src="https://asciinema.org/a/JHpwJ7SplnSziunMgf0yYWiv9.svg" /></a>
+
