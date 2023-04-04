@@ -25,8 +25,6 @@ Comparising plain yml files
 Comparising nested json and yml files
 <a href="https://https://asciinema.org/a/JHpwJ7SplnSziunMgf0yYWiv9" target="_blank"><img src="https://asciinema.org/a/JHpwJ7SplnSziunMgf0yYWiv9.svg" /></a>
 
-Comparising nested yml&json files different formats
-<a href="https://asciinema.org/a/5QjoyXawA45grCDU6HXnJbZuN" target="_blank"><img src="https://asciinema.org/a/5QjoyXawA45grCDU6HXnJbZuN.svg" /></a>
 
 -f json style
 <a href="https://asciinema.org/a/N66DE8fFKNHvU2p9b1PzHUVmv" target="_blank"><img src="https://asciinema.org/a/N66DE8fFKNHvU2p9b1PzHUVmv.svg" /></a>
