@@ -8,7 +8,9 @@ program
   .option('-f, --format <type>', 'output format', 'stylish')
   .argument('<filepath1>')
   .argument('<filepath2>')
-  .action((filepath1, filepath2) => {
-    console.log(genDiff(filepath1, filepath2));
+  .action((filepath1, filepath2, options) => {
+    const diff = genDiff(filepath1, filepath2, options.format);
+
+    console.log(diff);
   })
   .parse(process.argv);
