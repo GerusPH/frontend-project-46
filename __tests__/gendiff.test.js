@@ -6,8 +6,7 @@ import genDiff from '../src/index.js';
 import nestedDiff from '../__fixtures__/nestedDiff.js';
 import plainDiff from '../__fixtures__/plainDiff.js';
 
-const jsonDiff = JSON.stringify(JSON.parse(fs.readFileSync('__fixtures__/jsonDiff.json', 'utf-8')));
-
+const jsonDiff = JSON.stringify(JSON.parse(fs.readFileSync('__fixtures__/jsonDiff.json', 'utf8')));
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
